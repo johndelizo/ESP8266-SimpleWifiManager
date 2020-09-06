@@ -1,5 +1,15 @@
 # ESP8266-SimpleWifiManager
-Simplified take on Arduino ESP8266 WiFi Management
+Simplified take on Arduino ESP8266 WiFi Management. 
+
+There are other ESP8266 blogs, step by step guides and repo in Github that does WiFi management, however, this project is meant to be very simple and easy to use. Another feature is to always have the portal available thru ESP8266. Most solutions out there would disable or switch the WiFi mode of ESP8266 upon configuration leaving the ESP8266 hard to manage or reconnect to other WiFi hotspots. 
+
+## Project Goals!
+
+- **Simple**. Plug and play with default configuration;
+- **Clean Code**. Trying to and its a work in progress;
+- **Standalone**. Only Arduino and ESP8266 libraries, no user or 3rd party dependencies should be used, besides my configurable serial which is just a toggle to enable or disable serial print line. 
+- **Configurable** (soon), TODO: Add extension methods for personalization and update of configuration;
+- **Fast** (soon), TODO: Refactor web server responses.
 
 ![ESP8266](https://user-images.githubusercontent.com/1830478/92316364-78d67c00-f025-11ea-910b-3858c502ed69.png)  
 
@@ -20,13 +30,7 @@ Simplified take on Arduino ESP8266 WiFi Management
  - [Credits and Libraries Used](#credits-and-libraries-used)
  
  
-## Project Goals!
 
-- **Simple**. Plug and play with default configuration;
-- **Clean Code**. Trying to and its a work in progress;
-- **Standalone**. Only Arduino and ESP8266 libraries, no user or 3rd party dependencies should be used, besides my configurable serial which is just a toggle to enable or disable serial print line. 
-- **Configurable** (soon), TODO: Add extension methods for personalization and update of configuration;
-- **Fast** (soon), TODO: Refactor web server responses.
 
 ## Quick Start
 **Include the library to your ESP8266 Sketch, initialize SimpleWifiManager and call two functions.**  
